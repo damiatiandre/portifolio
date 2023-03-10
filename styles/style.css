@@ -190,5 +190,31 @@ body{
         width: 210px;
         height: 270px;
     }
+}
 
+/*PARTE DOS PROJETOS*/
+
+.projetos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.projetos__imagem {
+    border : 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+    width: 300px;
+    height: 450px;
+}
+
+.projetos__imagem.imagem__tamanho {
+    width: 300px;
+    height: 450px;
+}
+
+.projetos__imagem:hover {
+    width: 310px;
+    height: 460px;
+    box-shadow: 0 0 20px var(--cor-terciaria);
+    transition: .3s ease-in-out;
 }
