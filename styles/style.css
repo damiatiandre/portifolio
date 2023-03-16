@@ -164,6 +164,7 @@ body{
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 20px;
     }
 
     .apresentacao {
@@ -186,9 +187,36 @@ body{
     .foto-perfil__container {
         flex-direction: row;
         justify-content: space-evenly;
-        margin-left: 70px;
+        align-items: center;
+        margin-left: 100px;
         width: 210px;
         height: 270px;
+    }
+
+    .projetos {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 50px 0;
+        gap: 30px;
+    }
+    
+    .projetos__imagem {
+        border : 2px solid var(--cor-terciaria);
+        border-radius: 8px;
+        max-width: 300px;
+        max-height: 450px;
+    }
+    
+    .projetos__imagem.imagem__tamanho {
+        max-width: 300px;
+        max-height: 450px;
+    }
+
+    .logo-perfil {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
     }
 }
 
@@ -198,6 +226,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin: 50px 0;
+    gap: 30px;
 }
 
 .projetos__imagem {
